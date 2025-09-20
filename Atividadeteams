@@ -1,0 +1,35 @@
+ // Faça um programa em java que crie dois vetores inteiros de capacidade 30 que serão utilizados como conjuntos.
+   //Exiba um menu com as seguintes opções (foto)
+   import java.util.Scanner;
+
+    public class atividade1{
+
+
+        public static Scanner input = new Scanner(System.in);
+
+        public static void main(String[] args) {
+            
+         System.out.println("----MENU----");
+         System.out.println(" ");
+         System.out.println("Digite a oção desejada:");
+         System.out.println("1) Inserir 1 elemento no conjunto A");
+         System.out.println("2) Inserir 1 elemento no conjunto B");
+         System.out.println("3) Imprimir os conjuntos A e B");
+         System.out.println("4) Gerar e imprimir a união de A e B");
+         System.out.println("5) Gerar e imprimir a interseção entre A e B");
+         System.out.println("6) Gerar e imprimir a diferença entre A e B");
+         System.out.println("6) Gerar e imprimir a diferença entre B e A");
+         System.out.println(" ");
+         
+         int[] conjuntoA = new int[30];
+         int[] conjuntoB = new int[30];
+
+
+
+
+        }
+
+       
+       
+
+    }
